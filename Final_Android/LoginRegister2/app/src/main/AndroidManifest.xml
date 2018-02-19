@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tejassangani.loginregister"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        tools:replace="android:icon"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".register" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Timetable1"
+            android:label="@string/title_activity_timetable1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LabManual"
+            android:label="@string/title_activity_lab_manual"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TocCourse" />
+        <activity android:name=".OsdCourse" />
+        <activity
+            android:name=".Timetable2"
+            android:label="@string/title_activity_timetable2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Timetable3"
+            android:label="@string/title_activity_timetable3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Complabmanual"
+            android:label="@string/title_activity_complabmanual"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ITlabmanual"
+            android:label="@string/title_activity_itlabmanual"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ENTClabmanual"
+            android:label="@string/title_activity_entclabmanual"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DmsaCourse2" />
+        <activity android:name=".CfcaCourse2" />
+        <activity android:name=".DcwsnCourse" />
+        <activity android:name=".Classess" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Notices" />
+        <activity android:name=".Classess1" />
+        <activity
+            android:name=".Refrences1"
+            android:label="@string/title_activity_refrences1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Refrences2"
+            android:label="@string/title_activity_refrences2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Refrences3"
+            android:label="@string/title_activity_refrences3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Refsubpage01" />
+        <activity android:name=".Refsubpage02" />
+        <activity android:name=".Faculty1" />
+        <activity
+            android:name=".TimetablesS2"
+            android:label="@string/title_activity_timetables_s2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TimetablesS1"
+            android:label="@string/title_activity_timetables_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TimetablesS3"
+            android:label="@string/title_activity_timetables_s3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TimetableB1"
+            android:label="@string/title_activity_timetable_b1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TimetableB2"
+            android:label="@string/title_activity_timetable_b2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TimetableB3"
+            android:label="@string/title_activity_timetable_b3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ClassessIt" />
+        <activity android:name=".Classessentc" />
+        <activity android:name=".Noticesit" />
+        <activity android:name=".Noticesentc" />
+        <activity android:name=".DepartmentRefrences" />
+        <activity android:name=".Semister" />
+        <activity android:name=".ClassesLabmanual" />
+        <activity android:name=".SemisterLabmanual" />
+        <activity android:name=".LabmanualTesemister1" />
+        <activity android:name=".collegevm" />
+        <activity android:name=".compvm" />
+        <activity android:name=".itvm" />
+        <activity android:name=".entcvm" />
+        <activity android:name=".ClassessFaculty" />
+        <activity android:name=".DepartmentNotices" />
+        <activity android:name=".commondepartmentnotice" />
+        <activity android:name=".senotice" />
+        <activity android:name=".tenotice" />
+        <activity android:name=".benotice" />
+        <activity android:name=".TocRefrences" />
+        <activity android:name=".OsdRefrences" />
+        <activity android:name=".DmsaRefrences" />
+        <activity android:name=".DcwsnRefrences" />
+        <activity android:name=".CfcaRefrences"></activity>
+    </application>
+
+</manifest>
