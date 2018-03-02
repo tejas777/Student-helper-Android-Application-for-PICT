@@ -1,4 +1,4 @@
-# Student-helper-website-for-PICT
+# Student-helper-Android-Application-for-PICT
 The Android Application is created by the motivation to help the students in college so that they can complete there task without wasting much time. In this project, there is one Web Application and one android application connected with the single database. The Web Application will be used only by the teachers and the Android Application will get only by the students. Any changes made from the Web application will automatically get reflected in Android Application.
 
 Objective:
