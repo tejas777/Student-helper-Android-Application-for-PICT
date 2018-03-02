@@ -25,6 +25,6 @@ Features:
 8. Upload College notices
 9. Any teacher in department can check anyone's data.
 10. Upload available time for each teacher.
-
+10. Get notification of every addition of PPT and notice's from the teacher to the student.
 
 Technologies Used: Android Studio, PHP, MYSQLI.
